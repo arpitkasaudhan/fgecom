@@ -1,4 +1,5 @@
-# E-commerce Application
+# E-Store Management System
+[Deployed Application](https://fgecom.vercel.app/)
 
 This is a MERN stack-based e-commerce application with the backend deployed on Vercel and the frontend handled separately.
 Here You can Find The Frontend Repo ( https://github.com/arpitkasaudhan/E-commerce-Using-MERN-Stack )
@@ -44,10 +45,15 @@ Make sure you have the following installed on your system:
     ```bash
     npm run start
     ```
- - The server is running on http://localhost:3000`
+ - The Frontend is running on http://localhost:3000`
 
 4. **Deploy to Backend Repository**:
-    - After building, copy the contents of the `build` folder and place them in the backend repository's public directory.
+    
+    ```bash
+    npm run build
+    ```
+
+    - After building, copy the contents of the `build` folder and place them in the backend repository's main directory.
 
 ### Backend Setup
 
@@ -76,15 +82,15 @@ Make sure you have the following installed on your system:
     npm run dev
     ```
 
-    - The server should be running on `http://localhost:5000`.
+    - The server should be running on `http://localhost:8080`.
 
 ### Accessing the Application
 
-- Once both frontend and backend are set up, visit `http://localhost:5000` to access the application.
+- Backend are set up, visit `http://localhost:3000` to access the application locally.
 
 ## Deployment
 
 The application is deployed on Vercel. You can access it via the deployed link:
-[Deployed Application](https://your-vercel-app-link)
+[Deployed Application](https://fgecom.vercel.app/)
 
 
